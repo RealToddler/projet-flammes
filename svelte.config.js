@@ -4,7 +4,6 @@ import cloudflare from '@sveltejs/adapter-cloudflare';
 const config = {
 	kit: {
 		adapter: cloudflare(),
-		target: "#svelte"
 	}
 };
 
