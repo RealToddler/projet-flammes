@@ -17,7 +17,7 @@
 <div id="pbq"
     style="background-image: url(backgrounds/index_pbq_bg.png); background-repeat: no-repeat; 
         background-position: top; background-size: cover">
-    <div class="h-screen select-none">
+    <div class="h-screen min-w-screen">
         <div class="h-1/2 flex">
             <div class="flex self-center mx-auto h-50 w-175 
                 rounded-lg border-4 shadow-2xl shadow-white">
@@ -47,8 +47,8 @@
     </div>
 </div>
 <!--I & II-->
-<div id="devpart" class="bg-black select-none">
-    <div class="min-h-screen select-none bg-black text-white">
+<div id="devpart" class="bg-black">
+    <div class="min-h-screen min-w-screen bg-black text-white">
         <div class="h-1/2 space-y-5">
             <div class="self-start mx-auto flex justify-center">
                 <button on:click={() => animateScroll.scrollTo({element: '#pbq', duration: 2000})}

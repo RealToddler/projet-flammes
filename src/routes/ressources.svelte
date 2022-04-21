@@ -1,4 +1,4 @@
-<div class="min-h-screen"
+<div class="min-h-screen min-w-screen"
     style="background-image: url(backgrounds/ressources_bg.png); background-repeat: no-repeat; 
     background-position: center; background-size: cover">
     <div class="ml-1/32 mr-1/32 text-white">

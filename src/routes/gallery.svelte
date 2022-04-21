@@ -45,10 +45,10 @@
 
 </script>
 
-<div class="py-5 space-y-5 select-none"
+<div class="py-5 space-y-5 h-min-screen min-w-screen"
     style="background-image: url(backgrounds/gallery_bg.png); background-repeat: no-repeat;   
-    background-position: 1/2; background-size: cover">>
-    <div class="ml-1/16">
+    background-position: center; background-size: cover">>
+    <div class="px-1/16">
         <h1 class="text-xl font-light text-white">
             Retrouvez sur cette page plusieurs photos / captures d'écrans prises 
             tout au long du projet.
@@ -70,15 +70,20 @@
                 timingFunction = {'linear'}>
                 {#each picture.src as src}
                     <div class="grid-2 main">
-                        <div class="w-110 h-auto shadow-lg">
+                        <div class="w-11/12 h-auto shadow-lg">
                             <img src="{src}" alt="" class="rounded-t 
                             border-l-3 border-r-3 border-t-3 border-gray-800">
                             <a href="{src}" target="_blank">
                                 <button class="w-full bg-gray-800 h-8 rounded-b
                                 hover:bg-gray-600 transition duration-650"
                                 style="outline:none">
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 self-center mx-auto" fill="none" viewBox="0 0 24 24" stroke="white" stroke-width="1.5">
-                                        <path stroke-linecap="round" stroke-linejoin="round" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                                    <svg xmlns="http://www.w3.org/2000/svg" 
+                                        class="h-6 w-6 self-center mx-auto" 
+                                        fill="none" viewBox="0 0 24 24" stroke="white" stroke-width="1.5">
+                                        <path 
+                                        stroke-linecap="round" 
+                                        stroke-linejoin="round" 
+                                        d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
                                     </svg>
                                 </button>    
                             </a>
