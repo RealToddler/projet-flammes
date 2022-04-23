@@ -1,0 +1,34 @@
+<script lang="js">
+    import ScrollButton from '$lib/components/ScrollButton.svelte'
+    import FirstPart from '$lib/components/FirstPart.svelte';
+    import SecondPart from '$lib/components/SecondPart.svelte';
+</script>
+
+<div id="menu"
+    class="min-h-full min-w-screen
+        text-white
+        bg-cyan-800">
+    <!--UP BUTTON-->
+    <div class="h-1/7
+        flex justify-center">
+        <ScrollButton direction = {"up"} id = {"problematic"}/>
+    </div>
+    <!--MENU PART-->
+    <div class="h-5/7
+        flex justify-center">
+        <div class="
+            self-center">
+            <FirstPart/>
+            <SecondPart/>
+        </div>
+    </div>
+    <br>
+    <!--DOWN BUTTON-->
+    <div class="h-1/7
+        flex justify-center">
+        <div class="
+            self-end">
+            <ScrollButton direction = {"down"} id = {"conclusion"}/>
+        </div>
+    </div>
+</div>

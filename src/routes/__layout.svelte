@@ -4,13 +4,13 @@
 </script>   
 
 <header>
-    <Header />
+    <Header/>
 </header>
 <body>
     <slot></slot>
 </body>
 <footer>
-    <Footer />
+    <Footer/>
 </footer>
 
 <style windi:preflights:global windi:safelist:global>

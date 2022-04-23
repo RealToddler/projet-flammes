@@ -1,38 +1,16 @@
-# create-svelte
+SCHOOL PROJECT
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+# 1 HOW TO RUN IT LOCALY
 
-## Creating a project
+1 - Make sure node.js is installed if not : https://nodejs.org/en/download/
+2 - Once you're in the directory "projet-flammes" run the follow command : ```npm i```
+3 - Then, run the command ```npm run dev```
+4 - CTRL + CLICK on the displayed link (http://localhost:3000)
 
-If you're seeing this, you've probably already done this step. Congrats!
+# 2 EASTER EGGS
 
-```bash
-# create a new project in the current directory
-npm init svelte
+2 easter eggs are hidden in this code source.
 
-# create a new project in my-app
-npm init svelte my-app
-```
+# 3 OTHER
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+- Website has been completely made by Toddler, if any questions feel free to reach me out on discord : Toddler#6666

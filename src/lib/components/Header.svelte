@@ -1,23 +1,25 @@
-<div class="flex justify-center h-25 bg-red-800">
-    <ul class="flex space-x-20 self-center
-    text-white text-2xl font-semibold">
-        <li class="">
-            <a href="/gallery" 
-            class="summary hover:text-yellow-400 transition duration-650">
-                GALLERIE 
-            </a>
-        </li>
-        <li>
-            <a href="/" 
-            class="summary hover:text-yellow-400 transition duration-650">
-                PAGE D'ACCUEIL
-            </a>
-        </li>
-        <li>
-            <a href="/ressources" 
-            class="summary hover:text-yellow-400 transition duration-650">
-                RESSOURCES
-            </a>
-        </li>
+<script lang="js">
+    const menus = [
+        {title: "GALERIE", href: "galery"}, 
+        {title: "PAGE D'ACCUEIL", href: ''}, 
+        {title: "RESSOURCES", href: "ressources"}
+        ];
+</script>
+
+<div class="h-25
+    flex justify-center 
+    bg-cyan-900">
+    <ul class="w-screen 
+        flex justify-evenly self-center
+        text-white text-3xl 
+        font-semibold">
+        {#each menus as menu}
+            <li>
+                <a href="/{menu.href}" 
+                class="summary hover:text-cyan-500 transition duration-650">
+                    {menu.title} 
+                </a>
+            </li>
+        {/each}
     </ul>
 </div>
