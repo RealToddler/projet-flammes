@@ -47,7 +47,7 @@
                                 <a class="
                                     underline
                                     font-semibold" 
-                                    href="protocole-test-flammes.pdf"
+                                    href="protocol.pdf"
                                     target="_blank" >
                                     celui-ci
                                 </a> 
@@ -231,7 +231,7 @@
                         <div class="
                             px-5 space-y-2">
                             <h1 class="
-                                text-2xl 
+                                text-3xl 
                                 font-bold">
                                 5 - Hébergement
                             </h1>
@@ -407,13 +407,13 @@
                                     href="https://dictionary.tn/pourquoi-une-flamme-est-elle-coloree/"
                                     target="_blank" >
                                     dictionnary.tn
-                                </a>
+                                </a><br>
                                 <a class="
                                     underline
                                     font-semibold" 
                                     href="https://www.nagwa.com/fr/explainers/417129769426/"
                                     target="_blank" >
-                                    dictionnary.tn
+                                    nagwa.com
                                 </a>
                             </div>
                         </div>
@@ -427,7 +427,7 @@
             <a class="
                 underline
                 font-semibold"  
-                href="https://github.com/RealToddler/projet-es" 
+                href="https://github.com/RealToddler/projet-flammes" 
                 target="_blank">
                 ce repository Github.
             </a>
