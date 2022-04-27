@@ -1,6 +1,6 @@
 <script lang="js">
     const menus = [
-        {title: "GALERIE", href: "galery"}, 
+        {title: "GALERIE", href: "gallery"}, 
         {title: "PAGE D'ACCUEIL", href: ''}, 
         {title: "RESSOURCES", href: "ressources"}
         ];
