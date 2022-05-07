@@ -1,3 +1,4 @@
+<title>PROJET FLAMMES | RESSOURCES</title>
 <div class="min-h-screen min-w-screen
     bg-amber-600">
     <div class="

@@ -4,6 +4,7 @@
     import Conclusion from '$lib/components/Conclusion.svelte';
 </script>
 
+<title>PROJET FLAMMES | ACCUEIL</title>
 <div>
     <Problematic/>
     <Menu/>

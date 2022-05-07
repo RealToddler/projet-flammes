@@ -51,6 +51,7 @@
 
 </script>
 
+<title>PROJET FLAMMES | GALERIE</title>
 <div class="h-min-screen min-w-screen
     py-5 space-y-5
     bg-cyan-800">

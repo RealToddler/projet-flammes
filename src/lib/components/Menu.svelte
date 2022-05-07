@@ -5,30 +5,33 @@
 </script>
 
 <div id="menu"
-    class="min-h-full min-w-screen
+    class="min-h-screen min-w-screen max-h-full
         text-white
+        flex
         bg-cyan-800">
     <!--UP BUTTON-->
-    <div class="h-1/7
-        flex justify-center">
-        <ScrollButton direction = {"up"} id = {"problematic"}/>
-    </div>
-    <!--MENU PART-->
-    <div class="h-5/7
-        flex justify-center">
-        <div class="
-            self-center">
-            <FirstPart/>
-            <SecondPart/>
+    <div class="h-auto mx-auto">
+        <div class="h-1/7
+            flex justify-center">
+            <ScrollButton direction = {"up"} id = {"problematic"}/>
         </div>
-    </div>
-    <br>
-    <!--DOWN BUTTON-->
-    <div class="h-1/7
-        flex justify-center">
-        <div class="
-            self-end">
-            <ScrollButton direction = {"down"} id = {"conclusion"}/>
+        <!--MENU PART-->
+        <div class="h-5/7
+            flex justify-center">
+            <div class="
+                self-center">
+                <FirstPart/>
+                <SecondPart/>
+                <br>
+            </div>
+        </div>
+        <!--DOWN BUTTON-->
+        <div class="h-1/7
+            flex justify-center self-end">
+            <div class="
+                self-end">
+                <ScrollButton direction = {"down"} id = {"conclusion"}/>
+            </div>
         </div>
     </div>
 </div>
