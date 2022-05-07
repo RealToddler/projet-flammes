@@ -36,10 +36,10 @@ def create_graphic(data):
     copperChlorideList = [data[item]["copper_chloride"] for item in data]
     sodiumChlorideList = [data[item]["sodium_chloride"] for item in data]
     
-    # plt.plot(wavelengthList, copperChlorideList, c="purple", label="Intensité (en luxmètre) d'une flamme de Chlorure de Cuivre")
-    plt.plot(wavelengthList, bariumNitrateList, c="purple", label="Intensité (en luxmètre) d'une flamme de Nitrate de Barium")
-    # plt.plot(wavelengthList, sodiumChlorideList, c="purple", label="Intensité (en luxmètre) d'une flamme de Chlorure de Sodium")
-    plt.title("Courbes de l'intensité d'une flamme en fonction des différentes longueurs d'ondes")
+    plt.plot(wavelengthList, copperChlorideList, c="purple", label="Flamme de Chlorure de Cuivre")
+    # plt.plot(wavelengthList, bariumNitrateList, c="purple", label="Flamme de Nitrate de Barium")
+    # plt.plot(wavelengthList, sodiumChlorideList, c="purple", label="Flamme de Chlorure de Sodium")
+    plt.title("Courbe de l'intensité d'une flamme en fonction des différentes longueurs d'ondes")
     plt.legend()
     plt.xticks([len(wavelengthList)*i/8 for i in range(8)])
     plt.xlabel("Longueur d'onde (en nm)")
