@@ -6,7 +6,7 @@
     ];
 </script>
 
-<div class="min-h-80 min-w-screen 
+<div class="min-h-80 w-screen 
     bg-cyan-900">
     <div class="
         flex justify-center py-7 

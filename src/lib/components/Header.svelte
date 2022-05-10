@@ -6,7 +6,7 @@
         ];
 </script>
 
-<div class="h-25
+<div class="h-25 w-screen
     flex justify-center 
     bg-cyan-900">
     <ul class="w-screen 
