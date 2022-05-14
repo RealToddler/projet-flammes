@@ -7,7 +7,7 @@
         background-repeat: no-repeat; 
         background-position: center; 
         background-size: cover">
-    <div class="h-screen w-screen">
+    <div class="h-screen">
         <!--UP BUTTON-->
         <div class="h-1/7 
             flex justify-center">

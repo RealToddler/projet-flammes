@@ -16,7 +16,7 @@
         {#each menus as menu}
             <li>
                 <a href="/{menu.href}" 
-                class="summary hover:text-cyan-500 transition duration-650">
+                class="summary hover:text-rose-500 transition duration-650">
                     {menu.title} 
                 </a>
             </li>

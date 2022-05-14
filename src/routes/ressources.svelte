@@ -1,6 +1,6 @@
 <title>PROJET FLAMMES | RESSOURCES</title>
-<div class="min-h-screen min-w-screen
-    bg-amber-600">
+<div class="
+    bg-rose-700">
     <div class="
         ml-1/32 mr-1/32 
         text-white">
