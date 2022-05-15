@@ -5,7 +5,7 @@
 </script>
 
 <div id="menu"
-    class="min-h-screen max-h-full
+    class="min-h-screen w-screen max-h-full
         text-white
         flex
         bg-cyan-800">
