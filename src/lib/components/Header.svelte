@@ -9,7 +9,7 @@
 <div class="h-25 w-screen
     flex justify-center 
     bg-cyan-900">
-    <ul class="w-screen 
+    <ul class="w-full 
         flex justify-evenly self-center
         text-white text-3xl 
         font-semibold">
