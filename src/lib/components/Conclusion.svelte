@@ -24,20 +24,19 @@
                     CONCLUSION
                 </h1>
             </div>
+            <!--BACKGROUND VIDEO-->
+            <video id="background-video"
+                class="flex h-screen w-screen"
+                autoplay 
+                loop 
+                muted = {true}
+                poster="flames/picture4.png">
+                <source src="flames/video_flames.mp4" 
+                    type="video/mp4">
+            </video>
         </div>
     </div>
 </div>
-
-<!--BACKGROUND VIDEO-->
-<video id="background-video"
-    class="h-screen w-screen"
-    autoplay 
-    loop 
-    muted = {true}
-    poster="flames/picture4.png">
-    <source src="flames/video_flames.mp4" 
-        type="video/mp4">
-  </video>
 
 <style>      
     #background-video {
