@@ -25,7 +25,7 @@
             ">
             {#each folks as folk}
                 <li class="w-2/9">
-                    <div class="h-160px w-160px
+                    <div class="w-1/3 h-7/3
                         mx-auto self-center
                         rounded-full border-2 border-white"
                     style="background-image: url({folk.url}); 
