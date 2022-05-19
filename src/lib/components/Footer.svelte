@@ -35,12 +35,14 @@
                     </div>
                 {#if folk.easter_egg}
                     <a href="{folk.easter_egg}">
-                        <h1 class="flex justify-center py-3">
+                        <h1 class="flex justify-center py-3
+                            text-center">
                             {folk.name}
                         </h1>
                     </a>
                 {:else}
-                    <h1 class="flex justify-center py-3">
+                    <h1 class="flex justify-center py-3
+                    text-center">
                         {folk.name}
                     </h1>
                 {/if}
