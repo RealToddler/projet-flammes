@@ -40,8 +40,8 @@
 
 <style>      
     #background-video {
-        width: 100%;
-        height: 100%;
+        width: 1920px;
+        height: 1080px;
         object-fit: cover;
         position: fixed;
         left: 0;
