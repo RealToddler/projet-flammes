@@ -7,7 +7,7 @@
         background-repeat: no-repeat; 
         background-position: center; 
         background-size: cover">
-    <div class="h-screen">
+    <div class="h-screen w-screen">
         <!--UP BUTTON-->
         <div class="h-1/7 
             flex justify-center">
@@ -26,7 +26,7 @@
             </div>
             <!--BACKGROUND VIDEO-->
             <video id="background-video"
-                class="flex h-screen w-full"
+                class="flex h-screen w-screen"
                 autoplay 
                 loop 
                 muted = {true}
