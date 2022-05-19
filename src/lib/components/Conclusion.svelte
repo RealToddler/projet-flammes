@@ -29,7 +29,8 @@
 </div>
 
 <!--BACKGROUND VIDEO-->
-<video id="background-video" 
+<video id="background-video"
+    class="h-screen w-screen"
     autoplay 
     loop 
     muted = {true}
@@ -40,8 +41,6 @@
 
 <style>      
     #background-video {
-        width: 1920px;
-        height: 1080px;
         object-fit: cover;
         position: fixed;
         left: 0;
