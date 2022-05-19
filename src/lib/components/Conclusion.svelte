@@ -26,7 +26,7 @@
             </div>
             <!--BACKGROUND VIDEO-->
             <video id="background-video"
-                class="flex h-screen w-screen"
+                class="flex h-screen w-full"
                 autoplay 
                 loop 
                 muted = {true}
