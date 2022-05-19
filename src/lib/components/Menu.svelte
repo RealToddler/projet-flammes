@@ -10,7 +10,7 @@
         flex
         bg-cyan-800">
     <!--UP BUTTON-->
-    <div class="h-auto mx-auto">
+    <div class="h-auto w-screen">
         <div class="h-1/7
             flex justify-center">
             <ScrollButton direction = {"up"} id = {"problematic"}/>
