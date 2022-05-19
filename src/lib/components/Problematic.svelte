@@ -11,12 +11,12 @@
         <div class="h-6/7 
             flex justify-center">
             <div class="
-                flex self-center 
-                rounded-xl border-3">
+                flex justify-center ">
                 <h1 class="
                     self-center py-5 px-5
                     text-white text-5xl text-center 
-                    font-semibold">
+                    font-semibold
+                    rounded-xl border-3">
                     A QUOI SONT LIEES <br>LES COULEURS DES FLAMMES ?
                 </h1>
             </div>
