@@ -91,7 +91,7 @@
                                 px-5 
                                 text-2xl
                                 font-normal">
-                                <p>Caméra infrarouge</p>
+                                <p>Spectromètre</p>
                                 <p>Luxmètre</p>
                             </div>
                         </div>
